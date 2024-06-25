@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cifra-de-Cesar</string>
+    <string name="edit_message">Message</string>
+    <string name="edit_key">Key</string>
+    <string name="ok">OK</string>
+    <string name="successfully">Successfully Encrypted</string>
+    <string name="lowerCaseLetters">Only Lowercase</string>
+    <string name="error_invalid_key">Invalid Key</string>
+    <string name="copy">COPIED</string>
+</resources>

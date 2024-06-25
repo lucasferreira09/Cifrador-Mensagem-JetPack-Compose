@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="centralImageSize">364dp</dimen>
+    <dimen name="spacerImageSize">364dp</dimen>
+    <dimen name="smallCentralImageSize">270dp</dimen>
+    <dimen name="smallSpacerImageSize">145dp</dimen>
+    <dimen name="buttonsWidth">124dp</dimen>
+    <dimen name="smallButtonWidth">100dp</dimen>
+    <dimen name="buttonsHeight">54dp</dimen>
+    <dimen name="paddingBottomScreen">42dp</dimen>
+</resources>
