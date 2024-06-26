@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cifra-de-Cesar</string>
+    <string name="app_name">Cifrador-Msg</string>
     <string name="edit_message">Message</string>
     <string name="edit_key">Key</string>
     <string name="ok">OK</string>
