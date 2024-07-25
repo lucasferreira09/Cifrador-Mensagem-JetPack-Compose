@@ -2,6 +2,8 @@ package com.example.cifra_de_cesar_jetpack_compose
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -60,9 +62,39 @@ import androidx.compose.ui.window.Dialog
 import com.example.cifra_de_cesar_jetpack_compose.ui.theme.CifradeCesarJetPackComposeTheme
 import com.example.cifra_de_cesar_jetpack_compose.ui.theme.Shapes
 
+private const val TAG = "MainActivity"
+
 class MainActivity : ComponentActivity() {
+
+    override fun onStart() {
+        super.onStart()
+        Log.d(TAG, "onStart Called")
+    }
+    override fun onStop() {
+        super.onStop()
+        Log.d(TAG, "onStop  Called")
+    }
+    override fun onPause() {
+        super.onPause()
+        Log.d(TAG, "onPause  Called")
+    }
+    override fun onResume() {
+        super.onResume()
+        Log.d(TAG, "onResume  Called")
+
+    }
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG, "onRestart  Called")
+    }
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG, "onDestroy  Called")
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d(TAG, "onCreate Called")
         enableEdgeToEdge()
         setContent {
             CifradeCesarJetPackComposeTheme {
