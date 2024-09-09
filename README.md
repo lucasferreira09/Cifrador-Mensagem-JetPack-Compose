@@ -1,5 +1,5 @@
-### Cifrador de Mensagens foi meu primeiro aplicativo quando comecei no Desenvolvimento Android - Fiz em XML usando JAVA☕ 
-## Agora, refiz em JetPack Compose usando Kotlin
+### Cifrador de Mensagens foi meu primeiro app quando comecei no Desenvolvimento Android - Fiz em Java☕ usando XML.
+## Agora, refiz em Kotlin usando JetPack Compose.
 
 ![Tela-Inicial](veja_o_app/tela_inicial.png)
 ![Modo-Paisagem](veja_o_app/modo_paisagem.png)
